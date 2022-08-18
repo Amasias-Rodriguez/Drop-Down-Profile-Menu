@@ -16,17 +16,39 @@
             <li><a href="#">Features</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
-            <img src="/imagenes/user.png" class="user-pic">
+            <img src="/imagenes/user.png" class="user-pic" onclick="toggleMenu()">
 
-            <div class="sub-menu-wrap">
+            <div class="sub-menu-wrap" id="subMenu">
                 <div class="sub-menu">
                     <div class="user-info">
                         <img src="/imagenes/user.png">
                         <h2>James Adriano</h2>
                     </div>
+                    <hr>
+                    <a href="#" class="sub-menu-link">
+                        <img src="/imagenes/profile.png" alt="">
+                        <p>Edit Profile</p>
+                        <span></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="/imagenes/profile.png" alt="">
+                        <p>Settings & Privacy</p>
+                        <span></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="/imagenes/profile.png" alt="">
+                        <p>Help & Support</p>
+                        <span></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="/imagenes/profile.png" alt="">
+                        <p>Logo</p>
+                        <span></span>
+                    </a>
                 </div>
             </div>
         </nav>
     </div>
+    <script src="/js/drop.js"></script>
 </body>
 </html>
